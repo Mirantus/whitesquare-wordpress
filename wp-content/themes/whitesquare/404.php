@@ -4,6 +4,6 @@
 </div>
 <?php get_sidebar(); ?>
 <section>
-	<p>It looks like nothing was found at this location.</p>
+	<p><?php echo __('It looks like nothing was found at this location.', 'whitesquare'); ?></p>
 </section>
 <?php get_footer(); ?>

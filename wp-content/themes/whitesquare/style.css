@@ -154,8 +154,8 @@ footer {
 	border: none;
 }
 
-.aside-menu li.active,
-.aside-menu li.active a {
+.aside-menu li.current-menu-item,
+.aside-menu li.current-menu-item a {
 	color: #29c5e6;
 }
 
@@ -525,3 +525,10 @@ footer p {
 	font-size: 14px;
 	color: #29c5e6;
 }
+
+
+
+
+/*section > figure + figure {*/
+/*margin-left: 28px;*/
+/*}*/
