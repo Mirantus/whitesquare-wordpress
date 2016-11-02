@@ -14,5 +14,5 @@
 		<?php get_search_form(); ?> 
 	</header>
 	<nav class="main-navigation">
-		<? wp_nav_menu(array('menu' => 'top-menu', 'menu_class' => 'top-menu')); ?>
+		<?php wp_nav_menu(array('menu' => 'top-menu', 'menu_class' => 'top-menu')); ?>
 	</nav>
